@@ -1,16 +1,86 @@
-body{
-	background: #f9e933;
+html{
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
 }
 
 header, main, footer{
 	min-width: 855px;
+	margin: 10px;
+	padding-top: 25px;
+}
+
+body{
+	background: #f9e933;
+}
+
+header .container, main .container, footer .container{
+	max-width: 855px;
+	margin: auto;
+	overflow: hidden;
 }
 
 
+/**HEADER**/
 header{
 	background: white;
+	overflow: auto;
 }
 
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+h1{
+	font-size: 2.8em;
+}
+
+h2{
+	font-size: x-large;
+}
+
+nav{
+	font-size: larger;
+}
+/****/
+
+
+/**MAIN**/
 main{
 	background: white;
+	margin: 10px;
+	padding: 5px;
 }
+
+#intro{
+	float: left;
+}
+
+main img{
+	float: right;
+}
+/****/
+
+/**FOOTER**/
+footer{
+	background-color: orange;
+	font-size: .9em;
+}
+
+footer .container{
+	overflow: hidden;
+}
+
+.contact{
+	float: left;
+}
+
+.sitemap{
+	float: right;
+}
+/****/
